@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "TopupEvent",
+  "namespace": "com.events",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "code", "type": "string"},
+    {"name": "description", "type": "string"},
+    {"name": "phoneNumber", "type": "string"},
+    {"name": "partnerTransId", "type": "string"},
+    {"name": "supplierTransId", "type": ["null", "string"], "default": null},
+    {"name": "jobId", "type": ["null", "string"], "default": null},
+    {"name": "isPostpaid", "type": "int"},
+    {"name": "totalAmount", "type": "int"},
+    {"name": "discountRate", "type": "int"},
+    {"name": "beforeCredit", "type": "int"},
+    {"name": "afterCredit", "type": "int"},
+    {"name": "ip", "type": "string"},
+    {"name": "type", "type": "int"},
+    {"name": "status", "type": "int"},
+    {"name": "supplier", "type": "string"},
+    {"name": "mobileData", "type": "string"},
+    {"name": "merchantUser", "type": "string"},
+    {"name": "merchantSubscription", "type": "string"}
+  ]
+}

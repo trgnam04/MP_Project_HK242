@@ -1,0 +1,15 @@
+{
+  "doc": "Schema for buy events",
+  "type": "record",
+  "namespace": "com.events",
+  "name": "BuyEvent",
+  "fields": [
+    {"name":  "event", "type": ["null", "string"], "default": null},
+    {"name":  "sessionId", "type": ["null", "string"], "default": null},
+    {"name":  "timestamp", "type": ["null", "string"], "default": null},
+    {"name":  "itemId", "type": ["null", "string"], "default": null},
+    {"name":  "price", "type":  "int"},
+    {"name":  "quantity", "type":  "int"}
+  ]
+}
+

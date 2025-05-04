@@ -1,0 +1,13 @@
+{
+  "doc": "Schema for click events",
+  "type": "record",
+  "namespace": "com.events",
+  "name": "ClickEvent",
+  "fields": [
+    {"name":  "event", "type": ["null", "string"], "default": null},
+    {"name":  "sessionId", "type": ["null", "string"], "default": null},
+    {"name":  "timestamp", "type": ["null", "string"], "default": null},
+    {"name":  "category", "type": ["null", "string"], "default": null},
+    {"name":  "itemId", "type": ["null", "string"], "default": null}
+  ]
+}

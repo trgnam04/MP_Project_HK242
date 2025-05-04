@@ -1,0 +1,2 @@
+# Hệ thống chưa set up các Replicator để sao chép dữ liệu từ broker chính, backup khi broker chính bị sập
+
