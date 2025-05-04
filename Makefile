@@ -28,12 +28,10 @@ check_volume:
 clear: check_volume	
 	docker volume rm $(docker volume ls -q)
 
-
 # producer command
 
 run-producer:
 	cd generate_data/ && $(PYTHON) main.py
-
 
 # flink command
 
