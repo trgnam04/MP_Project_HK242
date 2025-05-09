@@ -32,7 +32,7 @@ build/
 !**/src/test/**/build/
 
 ### Data ###
-system_data/
+system_data
 
 ### VS Code ###
 .vscode/
