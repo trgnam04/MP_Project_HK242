@@ -10,7 +10,7 @@ from confluent_kafka.serialization import StringSerializer, SerializationContext
 from confluent_kafka.schema_registry import Schema
 
 # --- CONFIGURATION ---
-DATA_PATH = "../system_data"
+DATA_PATH = "/home/trgnam04/Ubuntu_Workspace"
 AVRO_SCHEMA_PATH = "../avro_schema"
 SCHEMA_REGISTRY_URL = 'http://localhost:8082'
 TOPIC_CONFIG = {
