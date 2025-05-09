@@ -1,8 +1,11 @@
 {
+  "doc": "Schema for topup events",
   "type": "record",
   "name": "TopupEvent",
   "namespace": "com.events",
   "fields": [
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"},
     {"name": "id", "type": "string"},
     {"name": "code", "type": "string"},
     {"name": "description", "type": "string"},
